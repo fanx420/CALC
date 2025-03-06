@@ -22,7 +22,7 @@ ASSETS_DIR = "assets"
 os.makedirs(ASSETS_DIR, exist_ok=True)
 
 
-GOOGLE_API_KEY = "AIzaSyCcu6RKVxDfxiTHySAsaLxV5q6F5ZE2vU4"
+GOOGLE_API_KEY = "" #Enter API KEY
 genai.configure(api_key=GOOGLE_API_KEY)
 
 generation_config = {
